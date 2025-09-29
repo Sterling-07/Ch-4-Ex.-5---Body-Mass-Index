@@ -18,7 +18,7 @@ int main()
 	cout << "Enter you height in inches: \n";
 	cin >> height;
 
-	//Create the BMI variable in order to calculate the BMI
+	//Set the BMI variable equal to the equation in order to calculate the BMI
 	BMI = (weight * 703) / pow(height, 2);
 
 	//Display the user's BMI
