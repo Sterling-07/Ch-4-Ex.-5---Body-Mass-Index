@@ -26,14 +26,14 @@ int main()
 	
 	//Determine and display whether the user is optimal weight, overweight, or underweight based off their BMI
 	if (BMI >= 18.5 && BMI <= 25)
-		{
-			cout << "You are optimal weight";
-		}
-	if (BMI > 25)
+	{
+		cout << "You are optimal weight";
+	}
+	else if (BMI > 25)
 		{
 			cout << "You are overweight";
 		}
-	if (BMI < 18.5)
+	else if (BMI < 18.5)
 		{
 			cout << "You are underweight";
 		}
